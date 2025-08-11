@@ -8,11 +8,9 @@ c = conn.cursor()
 
 # Quert The Database
 c.execute("SELECT * FROM customers")
-# c.fetchone()
-# c.fetchmany(3)
-
+print(c.fetchone())
+print(c.fetchmany(3))
 print(c.fetchall())
-
 
 
 # print("Command executed successfully...")
