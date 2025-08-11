@@ -6,19 +6,11 @@ conn = sqlite3.connect("customer.db")
 # Create a cursor
 c = conn.cursor()
 
-# Create a Table
-c.execute("""CREATE TABLE customers (
-        first_name TEXT,
-        last_name TEXT,
-        email TEXT
-    )""")
+c.execute("INSERT INTO customers VALUES ('Mary', 'Brown', 'mary@brown.com')")
 
-# Datatypes:
-# NULL
-# INTEGER
-# REAL
-# TEXT
-# BLOB
+
+
+print("Command executed successfully...")
 
 # Commit our command
 conn.commit()
