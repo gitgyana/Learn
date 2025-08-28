@@ -1,7 +1,7 @@
 //  Random Number Generator
 
 const myButton = document.getElementById("myButton");
-const label1 = document.getElementById("labell");
+const label1 = document.getElementById("label1");
 const label2 = document.getElementById("label2");
 const label3 = document.getElementById("label3");
 const MIN = 1;
