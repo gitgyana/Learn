@@ -1,0 +1,48 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    transition: color 0.5s;
+}
+
+h1:hover {
+    color: blueviolet;
+}
+
+#options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    margin: 1em;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.option {
+    margin: 2em;
+    padding: 1em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: background-color 0.5s, color 0.5s, border 0.5s;
+}
+
+.option:hover {
+    background-color: blueviolet;
+    border: transparent;
+    color: white;
+}
+
+.option:hover a {
+    color: white;
+}
