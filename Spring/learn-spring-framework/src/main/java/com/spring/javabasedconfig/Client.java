@@ -1,4 +1,4 @@
-package com.spring.ioccontainer;
+package com.spring.javabasedconfig;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

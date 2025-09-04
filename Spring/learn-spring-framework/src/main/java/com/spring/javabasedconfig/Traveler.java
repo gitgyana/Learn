@@ -1,4 +1,4 @@
-package com.spring.ioccontainer;
+package com.spring.javabasedconfig;
 
 public class Traveler {
 
